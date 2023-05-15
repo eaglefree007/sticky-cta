@@ -1,0 +1,28 @@
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+
+@media (max-width: 1399.98px) {
+  * {
+    font-size: 0.833vw;
+  }
+}
+
+/* @media (max-width: 991.98px) {
+} */
+
+@media (max-width: 767.98px) {
+  * {
+    font-size: 1.6vw;
+  }
+  body {
+    margin-bottom: 10rem;
+  }
+  body .product-card {
+    display: block;
+  }
+  .product-d-and-s {
+    display: block;
+  }
+  .s-cta-card {
+    display: block;
+  }
+}
